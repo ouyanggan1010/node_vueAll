@@ -1,0 +1,25 @@
+// rest
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+// 定义网站的基础尺寸
+html{
+    font-size: 13px;
+}
+body{
+    margin: 0;
+    //Arial几乎所有电脑都有的；Helvetica苹果的设备字体；sans-serif非衬线字体
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+    background: #f1f1f1;
+    //字体平滑，会让字体更加细
+    -webkit-font-smoothing: antialiased;
+}
+a{
+    color: #999;
+}
+p{
+    line-height: 1.5em;
+}
